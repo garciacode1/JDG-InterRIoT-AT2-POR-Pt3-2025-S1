@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "npx tailwindcss -i src/source.css -o static/css/site.css --watch",
+    "prod": "npx tailwindcss -i src/source.css -o static/css/site.css --build"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  }
+}

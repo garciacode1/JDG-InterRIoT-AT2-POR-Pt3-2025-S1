@@ -1,0 +1,33 @@
+<!-- Page Footer -->
+<!-- based on https://www.creative-tim.com/twcomponents/component/tailwind-css-footer-1-->
+<footer class="w-full text-gray-700 bg-gray-300 body-font text-sm">
+    <div class="px-16 py-6 flex flex-col flex-wrap flex-grow w-full bg-gray-200 ">
+
+        <nav class="grid grid-cols-4 md:grid-cols-8 ">
+            <h2 class="text-left mx-2 font-medium tracking-widest text-gray-500 uppercase title-font">About</h2>
+            <a href="{{ url_for('home') }}"
+               class="text-left mx-2 text-gray-400 cursor-pointer hover:text-gray-600">Company</a>
+            <a href="{{ url_for('home') }}"
+               class="text-left mx-2 text-gray-400 cursor-pointer hover:text-gray-600">Careers</a>
+            <a href="{{ url_for('home') }}"
+               class="text-left mx-2 text-gray-400 cursor-pointer hover:text-gray-600">Blog</a>
+        </nav>
+
+        <nav class="grid grid-cols-4 md:grid-cols-8 pb-4">
+            <h2 class="text-left mx-2 text-sm font-medium tracking-widest text-gray-500 uppercase title-font">
+                Support</h2>
+            <a href="{{ url_for('home') }}"
+               class="text-left mx-2 text-gray-400 cursor-pointer hover:text-gray-600">Contact Support</a>
+            <a href="{{ url_for('home') }}"
+               class="text-left mx-2 text-gray-400 cursor-pointer hover:text-gray-600">Help Resources</a>
+            <a href="{{ url_for('home') }}"
+               class="text-left mx-2 text-gray-400 cursor-pointer hover:text-gray-600">Release Updates</a>
+        </nav>
+    </div>
+    <div class="w-full px-16 py-4 mx-auto mt-4">
+
+        <p class="text-xs text-gray-500 capitalize">
+            © Copyright 2024 YOUR NAME. All rights reserved
+        </p>
+    </div>
+</footer>
