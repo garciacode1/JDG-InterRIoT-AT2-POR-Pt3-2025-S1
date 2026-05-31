@@ -1,0 +1,3 @@
+p, alice, /api/ds1/*, GET
+p, alice, /api/ds1/res1, POST
+p, bob, /api/ds2/res2, GET
