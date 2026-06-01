@@ -4,3 +4,4 @@ p, bob, /api/ds2/res2, GET
 p, *, /docs, GET
 p, *, /docs/, GET
 p, *, /openapi.json, GET
+p, alice, /api, GET
