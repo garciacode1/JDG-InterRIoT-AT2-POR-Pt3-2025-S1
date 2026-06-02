@@ -72,7 +72,14 @@ async def home(request: Request):
 async def api_index():
     return {"success": True, "message": "Welcome", "data": [{"greeting": "Hello, world."}]}
 
+@api.get("/api/ds1/res1")
+async def api_ds1_res1():
+    return "Resource 1 has been accessed"
 
+
+@api.get("/api/ds2/res2")
+async def api_ds2_res2():
+    return "Resource 2 has been accessed"
 @api.get("/about", response_class=HTMLResponse)
 async def about(request: Request):
     return TEMPLATES.TemplateResponse(
